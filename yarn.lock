@@ -1894,7 +1894,7 @@
   resolved "https://registry.npmjs.org/@medusajs/cache-inmemory/-/cache-inmemory-2.12.3.tgz"
   integrity sha512-0WMP4Ylyq2PsgAKhlPfRpfhRXiKge7/XnsxYnxFOZsHxMKEGegtEsKZyUYgoz9ruERo9/WAp99WfH59/gNiXmw==
 
-"@medusajs/cache-redis@2.12.3":
+"@medusajs/cache-redis@^2.12.3", "@medusajs/cache-redis@2.12.3":
   version "2.12.3"
   resolved "https://registry.npmjs.org/@medusajs/cache-redis/-/cache-redis-2.12.3.tgz"
   integrity sha512-dpI06j+dIaLlS6QXRdA7zlJrlS07STrXduSrkRyvU1cZr+Ipna5O+uKk4MkQcEd07FH9p/p8knjhIbWdqiMbGA==
@@ -2058,7 +2058,7 @@
   resolved "https://registry.npmjs.org/@medusajs/event-bus-local/-/event-bus-local-2.12.3.tgz"
   integrity sha512-U1QYFjJmayfBk1o3R25MsHyuktRZzhwrhIQCa52UoF3OjWXJLS/gmeedchBMvY29J5rxOU7lwrYqJAPQQwIDnQ==
 
-"@medusajs/event-bus-redis@2.12.3":
+"@medusajs/event-bus-redis@^2.12.3", "@medusajs/event-bus-redis@2.12.3":
   version "2.12.3"
   resolved "https://registry.npmjs.org/@medusajs/event-bus-redis/-/event-bus-redis-2.12.3.tgz"
   integrity sha512-8ANAgMqYstK8gdII+88LJ01Uec+IMAG4BgOfaT6vzUC9Trbnq7V3rh05Al6APGUzoKr/dSBPb1juc9HebCUMxQ==
@@ -2441,7 +2441,7 @@
     cron-parser "^4.9.0"
     ulid "^2.3.0"
 
-"@medusajs/workflow-engine-redis@2.12.3":
+"@medusajs/workflow-engine-redis@^2.12.3", "@medusajs/workflow-engine-redis@2.12.3":
   version "2.12.3"
   resolved "https://registry.npmjs.org/@medusajs/workflow-engine-redis/-/workflow-engine-redis-2.12.3.tgz"
   integrity sha512-qlWFarjl2+etsiWVjeLjLp05FdUtqCcA4WXJUsxn/YfVqa8vEPgynzLnMP4+BvB+2os2/yKSE+1lsfXoLjm5/A==
@@ -4988,6 +4988,11 @@
   resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.53.3.tgz"
   integrity sha512-3EhFi1FU6YL8HTUJZ51imGJWEX//ajQPfqWLI3BQq4TlvHy4X0MOr5q3D2Zof/ka0d5FNdPwZXm3Yyib/UEd+w==
 
+"@rollup/rollup-linux-x64-musl@4.53.3":
+  version "4.53.3"
+  resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.53.3.tgz"
+  integrity sha512-eoROhjcc6HbZCJr+tvVT8X4fW3/5g/WkGvvmwz/88sDtSJzO7r/blvoBDgISDiCjDRZmHpwud7h+6Q9JxFwq1Q==
+
 "@rushstack/node-core-library@5.13.0":
   version "5.13.0"
   resolved "https://registry.npmjs.org/@rushstack/node-core-library/-/node-core-library-5.13.0.tgz"
@@ -5579,6 +5584,11 @@
   version "1.15.3"
   resolved "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.15.3.tgz"
   integrity sha512-aKttAZnz8YB1VJwPQZtyU8Uk0BfMP63iDMkvjhJzRZVgySmqt/apWSdnoIcZlUoGheBrcqbMC17GGUmur7OT5A==
+
+"@swc/core-linux-x64-musl@1.15.3":
+  version "1.15.3"
+  resolved "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.15.3.tgz"
+  integrity sha512-oe8FctPu1gnUsdtGJRO2rvOUIkkIIaHqsO9xxN0bTR7dFTlPTGi2Fhk1tnvXeyAvCPxLIcwD8phzKg6wLv9yug==
 
 "@swc/core@*", "@swc/core@^1.7.28", "@swc/core@>=1.2.50":
   version "1.15.3"

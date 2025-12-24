@@ -23,9 +23,12 @@
   },
   "dependencies": {
     "@medusajs/admin-sdk": "2.12.3",
+    "@medusajs/cache-redis": "^2.12.3",
     "@medusajs/cli": "2.12.3",
+    "@medusajs/event-bus-redis": "^2.12.3",
     "@medusajs/framework": "2.12.3",
-    "@medusajs/medusa": "2.12.3"
+    "@medusajs/medusa": "2.12.3",
+    "@medusajs/workflow-engine-redis": "^2.12.3"
   },
   "devDependencies": {
     "@medusajs/test-utils": "2.12.3",

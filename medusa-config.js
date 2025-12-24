@@ -17,24 +17,25 @@ module.exports = defineConfig({
   admin: {
     backendUrl: process.env.BACKEND_URL,
   },
-  // ✅ CONFIGURAZIONE REDIS - QUESTA È LA PARTE NUOVA!
   modules: [
     {
       resolve: "@medusajs/cache-redis",
+      key: "cache-redis",
       options: {
         redisUrl: process.env.REDIS_URL,
-        // Disabilita TLS se necessario
         ttl: 30,
       },
     },
     {
       resolve: "@medusajs/event-bus-redis",
+      key: "event-bus-redis",
       options: {
         redisUrl: process.env.REDIS_URL,
       },
     },
     {
       resolve: "@medusajs/workflow-engine-redis",
+      key: "workflow-engine-redis",
       options: {
         redis: {
           url: process.env.REDIS_URL,

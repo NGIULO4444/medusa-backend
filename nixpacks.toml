@@ -1,5 +1,0 @@
-[phases.build]
-cmds = ["yarn build"]
-
-[phases.start]
-cmd = "yarn start"

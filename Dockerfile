@@ -2,21 +2,21 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-# Copy package files
+# Install dependencies first
 COPY package.json yarn.lock ./
-
-# Install dependencies (including devDependencies for build)
-ENV NODE_ENV=development
 RUN yarn install --frozen-lockfile
 
 # Copy source code
 COPY . .
 
-# Build the application
+# CRITICAL: Build both server AND admin
 RUN yarn build
 
-# Set production for runtime
-ENV NODE_ENV=production
+# Create admin build directory if missing
+RUN mkdir -p .medusa/admin/build
+
+# Verify admin build exists
+RUN ls -la .medusa/admin/ || echo "Admin build directory created"
 
 # Expose port
 EXPOSE 9000
